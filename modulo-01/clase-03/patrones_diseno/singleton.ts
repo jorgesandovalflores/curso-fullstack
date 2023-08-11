@@ -12,3 +12,5 @@ class DatabaseConnection {
         return DatabaseConnection.instance;
     }
 }
+
+const conection = DatabaseConnection.getInstance()
