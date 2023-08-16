@@ -3,7 +3,7 @@ interface MediaPlayer {
     play(audioType: string, filename: string): void;
 }
 
-// Objeto a Adaptar (Adaptee)
+// Objeto a Adaptar (Adapter)
 class AdvancedMediaPlayer {
     playVlc(filename: string): void {
         console.log(`Playing vlc file: ${filename}`);
@@ -18,7 +18,7 @@ class AdvancedMediaPlayer {
     }
 }
 
-// Adaptador (Adapter)
+// Adaptador (Adaptee)
 class MediaAdapter implements MediaPlayer {
     private advancedMusicPlayer: AdvancedMediaPlayer = AdvancedMediaPlayer.toEmpty();
 

@@ -5,7 +5,7 @@ interface Command {
 }
 
 // Comando Concreto (Concrete Command)
-class EmptyCommand implements Command {
+class Empty implements Command {
     execute(): void {
         
     }
@@ -51,7 +51,7 @@ class Light {
 
 // Invoker
 class RemoteControl {
-    private command: Command = new EmptyCommand();
+    private command: Command = new LightOnCommand(Light.toEmpty());
 
     setCommand(command: Command): void {
         this.command = command;
