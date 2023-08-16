@@ -1,0 +1,24 @@
+{
+  "name": "dataase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc; node dist/ServerDatabase.js"
+  },
+  "engines": {
+    "node": "18.x.x",
+    "npm": "9.x.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/koa": "^2.13.6"
+  }
+}
