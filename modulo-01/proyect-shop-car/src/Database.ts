@@ -4,7 +4,7 @@ const debugTs: boolean = false
 const isLogDb: boolean = true
 
 const instanceDatabase = new DataSource({
-    name: 'database-local',
+    name: 'project_shop_car',
     type: 'mysql',
     host: 'localhost',
     port: 3306,

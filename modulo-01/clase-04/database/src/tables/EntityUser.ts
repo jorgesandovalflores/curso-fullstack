@@ -14,4 +14,7 @@ export class EntityUser {
 
     @Column({nullable: true})
     url_photo: string
+
+    @Column({nullable: true})
+    gender: string
 }

@@ -1,0 +1,44 @@
+{
+  "name": "project-shop-car",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc; node dist/Server.js"
+  },
+  "engines": {
+    "node": "18.x.x",
+    "npm": "9.x.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "class-validator": "^0.14.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "jwt-simple": "^0.5.6",
+    "keypair": "^1.0.4",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-helmet": "^7.0.2",
+    "koa-jwt": "^4.0.4",
+    "koa-swagger-decorator": "^1.8.6",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "request-promise": "^4.2.6",
+    "twilio": "^4.10.0",
+    "typeorm": "^0.3.15",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa__cors": "^4.0.0",
+    "@types/koa__router": "^12.0.0",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa-helmet": "^6.0.4",
+    "@types/request-promise": "^4.1.48",
+    "ts-node": "^10.9.1"
+  }
+}
