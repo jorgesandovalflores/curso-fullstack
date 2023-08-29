@@ -10,9 +10,9 @@ const instanceDatabase = new DataSource({
     port: 3306,
     username: 'Development',
     password: '!Development123.',
-    database: 'curso_fulltack',
+    database: 'project_shop_car',
     entities: [
-        debugTs ? 'src/tables/*.ts' : 'dist/tables/*.js'
+        debugTs ? 'src/layer-data/tables/*.ts' : 'dist/layer-data/tables/*.js'
     ],
     timezone: 'Z',
     synchronize: true,
