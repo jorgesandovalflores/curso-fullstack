@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  /* Estilos de la caja */
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Animación al hacer hover */
+  .box:hover {
+    background-color: #e74c3c;
+    transform: scale(1.1);
+  }
+
+  /* Estilos para el contenido dentro de la caja */
+  .content {
+    color: white;
+    text-align: center;
+  }
+</style>
+<title>Ejemplo de CSS3: Animaciones y Flexbox</title>
+</head>
+<body>
+  <div class="box">
+    <div class="content">
+      <h2>¡Animaciones CSS3 y Flexbox!</h2>
+      <p>Hover sobre la caja para ver la animación.</p>
+    </div>
+  </div>
+</body>
+</html>
