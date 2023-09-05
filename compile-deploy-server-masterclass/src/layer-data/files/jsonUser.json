@@ -1,0 +1,8 @@
+{
+    "id_user": "user-admin",
+    "email": "jorge@quebuu.com",
+    "password": "123456",
+    "name": "Jorge",
+    "lastname": "Sandoval",
+    "active": true
+}
