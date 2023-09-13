@@ -1,15 +1,8 @@
 <script setup lang="ts">
-import { onUpdated, ref } from 'vue';
-import ComunicacionView from './components/ComunicacionView.vue';
-import { onBeforeMount, onBeforeUnmount, onBeforeUpdate, onErrorCaptured, onMounted } from 'vue';
-
-const userName = ref<string>('')
-const userAge = ref<number>(0)
-const valueChild = ref<number>(0)
-
-const clickEvent = (value: number) => {
-  valueChild.value = value
-}
+    import { onUpdated } from 'vue';
+    //import HelloWorld from './components/HelloWorld.vue';
+    import { onBeforeMount, onBeforeUnmount, onBeforeUpdate, onErrorCaptured, onMounted } from 'vue';
+    import HelloWorld from './components/HelloWorld.vue';
 
     onBeforeMount(() => {
         console.log('father onBeforeMount')
@@ -37,6 +30,7 @@ const clickEvent = (value: number) => {
 </script>
 
 <template>
+  
   <!--
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -46,7 +40,8 @@ const clickEvent = (value: number) => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  
+  
   -->
 
   <!--
@@ -59,20 +54,22 @@ const clickEvent = (value: number) => {
       </template>
   </Suspense>
   -->
-
+  <!--
   <ComunicacionView :name="userName" :age="userAge" @click="clickEvent">
     <input type="text" v-model="userName" />
     <input type="number" v-model="userAge" />
     <h2> {{ valueChild }}</h2>
   </ComunicacionView>
-
+  -->
   <!--
   <SlotView >
     <p>Este es el contenido que se pasa al componente hijo.</p>
   </SlotView>
   -->
 
-  <CicloVida />
+  <!--<CicloVida />-->
+  <!--<GoogleMapsView />-->
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>

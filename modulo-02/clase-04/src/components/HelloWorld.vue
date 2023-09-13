@@ -11,7 +11,7 @@ const handleFileChange = async (event: any) => {
   const fileInput = event.target as HTMLInputElement;
     const file = fileInput.files && fileInput.files[0];
     if (file) {
-      let url = await firebase.callUploadImage(file, 'examples')
+      let url = await firebase.callUploadImage(file, 'examen-hoy')
       console.log('url => ', url)
     }
 }

@@ -1,3 +1,9 @@
 {
-	
+	"apiKey": "AIzaSyDwC1gVfi4BGiXuTuG1REHzNxf10hEj_Mk",
+	"authDomain": "andes-fullstack.firebaseapp.com",
+	"projectId": "andes-fullstack",
+	"storageBucket": "andes-fullstack.appspot.com",
+	"messagingSenderId": "1004887861141",
+	"appId": "1:1004887861141:web:d31222bd2011f20052f89c",
+	"measurementId": "G-0EYJE9DQYC"
 }
