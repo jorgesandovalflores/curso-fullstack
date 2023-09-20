@@ -22,11 +22,12 @@
 
     const initMap = async () => {
         let mapHtml = await document.getElementById('map-custom')
-        let myLatlng = new google.maps.LatLng(-6.77496, -79.856079)
+        let myLatlng = new google.maps.LatLng(-8.108504, -79.026438)
         let mapOptions = {
-            zoom: 12,
+            zoom: 5,
             center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeId: google.maps.MapTypeId.HYBRID,
+            draggable: false
         }
         let mGoogle = new google.maps.Map(mapHtml!!, mapOptions)
         mapConst = mGoogle

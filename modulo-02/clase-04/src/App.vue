@@ -2,7 +2,7 @@
     import { onUpdated } from 'vue';
     //import HelloWorld from './components/HelloWorld.vue';
     import { onBeforeMount, onBeforeUnmount, onBeforeUpdate, onErrorCaptured, onMounted } from 'vue';
-    import HelloWorld from './components/HelloWorld.vue';
+    import GoogleMapsView from './components/GoogleMapsView.vue';
 
     onBeforeMount(() => {
         console.log('father onBeforeMount')
@@ -69,7 +69,7 @@
 
   <!--<CicloVida />-->
   <!--<GoogleMapsView />-->
-  <HelloWorld msg="Vite + Vue" />
+  <GoogleMapsView msg="Vite + Vue" />
 </template>
 
 <style scoped>

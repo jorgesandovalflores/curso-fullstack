@@ -5,6 +5,7 @@ import { useFirebase } from '../store/firebase'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const model = ref<any>()
 const firebase = useFirebase()
 
 const handleFileChange = async (event: any) => {

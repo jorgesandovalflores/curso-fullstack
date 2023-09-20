@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "express-firebase-auth-gate": "^0.1.2",
+    "firebase-admin": "^11.10.1",
+    "install": "^0.13.0",
+    "npm": "^10.1.0"
+  }
+}
