@@ -1,0 +1,1 @@
+ssh -i new-pem-taxyzz.pem ec2-user@18.246.212.113
